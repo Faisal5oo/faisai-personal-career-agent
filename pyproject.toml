@@ -1,0 +1,15 @@
+[project]
+name = "alter-ego-project-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "discord-webhook>=1.4.1",
+    "dotenv>=0.9.9",
+    "gradio>=6.13.0",
+    "openai>=2.33.0",
+    "pydantic>=2.13.3",
+    "pypdf2>=3.0.1",
+    "requests>=2.33.1",
+]
