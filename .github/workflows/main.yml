@@ -35,7 +35,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            docker pull your-docker-username/ai-agent:latest
+            docker pull faisalharoon500/ai-agent:latest
             docker stop ai-agent || true
             docker rm ai-agent || true
             docker run -d \
