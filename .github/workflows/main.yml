@@ -41,5 +41,5 @@ jobs:
             docker run -d \
               --name ai-agent \
               -p 80:8000 \
-              --env-file .env \
+              --env-file /home/ubuntu/apps/ai-agent/.env \
               faisalharoon500/ai-agent:latest
