@@ -42,4 +42,4 @@ jobs:
               --name ai-agent \
               -p 80:8000 \
               --env-file .env \
-              your-docker-username/ai-agent:latest
+              faisalharoon500/ai-agent:latest
