@@ -22,7 +22,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-docker-username/ai-agent:latest
+          tags: faisalharoon500/ai-agent:latest
 
   deploy:
     needs: build-and-push
