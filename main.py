@@ -17,7 +17,10 @@ import uvicorn
 # --- INITIALIZATION ---
 load_dotenv(override=True)
 
-app = FastAPI(title="Faisal Haroon Personal Agent API")
+app = FastAPI(
+    title="Faisal Haroon Personal Agent API",
+    root_path="/faisal-ai-twin"
+)
 
 app.add_middleware(
     CORSMiddleware,
