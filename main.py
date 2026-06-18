@@ -42,7 +42,7 @@ max_response_tokens= int(os.getenv("MAX_RESPONSE_TOKENS", 400))
 max_turns_per_session= 30
 
 
-mongo_client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
+mongo_client = MongoClient(os.getenv("MONGODB_URI"))
 db = mongo_client["ai_twin"]
 leads_col = db["leads"]          
 chats_col = db["chats"]          
